@@ -10,7 +10,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 gem 'middleman-deploy', '>= 2.0.0.pre.alpha'
-gem 'middleman', '>= 4.0.0'
+gem 'middleman', '~> 4.2'
 gem 'middleman-livereload'
 
 # CSS Plugins
