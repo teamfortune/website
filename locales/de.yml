@@ -7,6 +7,8 @@ de:
 # Globale Navigation
   navGlobalDocs: Docs
   navGlobalFAQ: FAQ
+  navGlobalTeam: Team
+  navGlobalAbout: Über uns
   navGlobalBlog: Blog
   navGlobalForum: Forum
   navGlobalCommunityChat: Community Chat
@@ -172,6 +174,21 @@ de:
   offerOneList7: Mit zusätzlichen Add-Ons
   offerOneIso: Deine APPUiO Managed Private Platform kann in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht oder auf deinen Wunsch bei AWS, Azure oder Google Cloud
 
+# Offer One: Vorteile
+  offerOneAdvantagesTitle: Passendes Angebot auswählen und loslegen
+  offerOneAdvantagesOneTitle: Swissness
+  offerOneAdvantagesOneDesc: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerOneAdvantagesTwoTitle: Security
+  offerOneAdvantagesTwoDesc: Auf der APPUiO Public Platform profitierst du von SELinux, Federation Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt.
+  offerOneAdvantagesThreeTitle: Support
+  offerOneAdvantagesThreeDesc: Du erhältst persönlichen Support sowie regelmässige Wartung und Updates der Server. Backup und Monitoring sind inklusive. Zudem steht dir unsere Community im Chat zur Verfügung.
+  offerOneAdvantagesFourTitle: Self-Service
+  offerOneAdvantagesFourDesc: Über unser Self-Service Portal kannst du deine Projekte auf Knopfdruck jederzeit anlegen, vergrössern, löschen und verwalten. Du hast die volle Kontrolle über deine Plattform.
+  offerOneAdvantagesFiveTitle: Pay per Use
+  offerOneAdvantagesFiveDesc: Die Kosten für die APPUiO Public Platform werden stündlich berechnet. Dabei bezahlst du nur, was du auch effektiv genutzt hast. Es gibt keine Setup-Kosten.
+  offerOneAdvantagesSixTitle: Hybrid Cloud
+  offerOneAdvantagesSixDesc: Die APPUiO Public Platform verfügt über zwei Availability Zonen - eine in der Schweiz und eine auf AWS in Deutschland inkl. Nutzung ihrer Services.
+
   offerOneServiceTitle: Zusätzliche Services
   offerOneServices1: Consulting Setup und Initialisierung.
   offerOneServices2: “Bring my App to the Cloud“ - wir beraten und setzen auch um.
@@ -208,6 +225,62 @@ de:
   offerOnePackageAddonsItem7: Zusätzliches Memory
   offerOnePackageAddonsItem8: Zusätzliche CPU
   offerOnePackageAddonsItem9: Zusätzliche Storage
+
+# Offer Two: Add-Ons
+
+  offerOneAddonsTitle: Zusätzliche Services
+  offerOneAddon1Title: SLA Office Hours
+  offerOneAddon1Description: Supportzeiten&#58; 09&#58;00-12&#58;00 Und 13&#58;00-18&#58;00 Uhr (5x8), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99%
+  offerOneAddon1Price: Im Preis inbegriffen
+  offerOneAddon2Title: SLA Office Hours Plus
+  offerOneAddon2Description: Supportzeiten&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99,3%
+  offerOneAddon2Price: Nach Absprache
+  offerOneAddon3Title: SLA 7x24
+  offerOneAddon3Description: Supportzeiten&#58; 7x24, Reaktionszeiten&#58; 1h, Verfügbarkeit&#58; 99,5%
+  offerOneAddon3Price: Nach Absprache
+  offerOneAddon4Title: Persistent Storage
+  offerOneAddon4Description: pro GB/Tag
+  offerOneAddon4Price: 0.0935 CHF
+  offerOneAddon5Title: TCP und UDP Ingress
+  offerOneAddon5Description: pro Service/Tag
+  offerOneAddon5Price: 0.35 CHF
+
+
+# Offer Two: FAQ
+  offerOneFaqTitle: Häufig gestellte Fragen
+#Categorie: Verrechnung
+  offerOneFaqVerOneTitle: Wie kann ich von den früheren “T-Shirt-Grössen” für die Public Platform auf das flexible Pricing migrieren?
+  offerOneFaqVerOneText: Dies kannst du einfach im Self Service Portal umstellen.
+  offerOneFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
+  offerOneFaqVerTwoText: Zu Beginn jedes Monats wird der letzte Monat abgerechnet.
+  offerOneFaqVerTreeTitle: Wie funktioniert die Abrechnung?
+  offerOneFaqVerTreeText: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
+  offerOneFaqVerFourTitle: Welche Einheit wird abgerechnet?
+  offerOneFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
+  offerOneFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
+  offerOneFaqVerFiveText: Die laufenden Kosten können im Self Service Portal angezeigt werden.
+  offerOneFaqVerSixTitle: Muss ich zusätzlich Subscription von Red Hat bezahlen?
+  offerOneFaqVerSixText: Nein, die Subscriptions sind im Preis enthalten.
+#Categorie: Allgemein
+  offerOneFaqAllOneTitle: Wo ist APPUiO Public gehostet?
+  offerOneFaqAllOneText: APPUiO Public Platform kann je nach Wunsch bei cloudscale.ch und bei AWS Frankfurt gehostet werden.
+  offerOneFaqAllTwoTitle: Wie erhalte ich einen APPUiO Account?
+  offerOneFaqAllTwoText: Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
+  offerOneFaqAllTreeTitle: Was wird überwacht?
+  offerOneFaqAllTreeText: Der gesamte Cluster und die dazugehörigen Komponenten werden überwacht. Für die Kundenapplikation kann ein zusätzliches Monitoring abonniert werden.
+  offerOneFaqAllFourTitle: Was wird gesichert?
+  offerOneFaqAllFourText: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
+#Categorie: Add-Ons
+  offerOneFaqAddOneTitle: Was sind die Supportzeiten des SLA?
+  offerOneFaqAddOneText: Supportfälle können per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt, bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
+  offerOneFaqAddTwoTitle: SLA, Was ist die Reaktionszeit?
+  offerOneFaqAddTwoText: |-
+    Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
+    Innerhalb des durch die Reaktionszeit definierten Zeitraums muss spätestens mit der Analyse des gemeldeten Supportfalls begonnen werden.
+    Beispiel
+    Der Kunde meldet um 16:00 ein Supportfall. Mit der Bearbeitung des Supportfalls in der Variante A wird spätestens am nächsten Tag um 17:00 begonnen
+  offerOneFaqAddTreeTitle: Was ist die "garantierte" Verfügbarkeit?
+  offerOneFaqAddTreeText: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
 
   offerContactOneSmall: Small
   offerContactOneMedium: Medium
@@ -422,10 +495,64 @@ de:
   offerThreeServices8: CI/CD Workflows anbinden
   offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
+  # Offer Three: Vorteile
+  offerThreeAdvantagesTitle: Passendes Angebot auswählen und loslegen
+  offerThreeAdvantagesOneTitle: Swissness
+  offerThreeAdvantagesOneDesc: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerThreeAdvantagesTwoTitle: Security
+  offerThreeAdvantagesTwoDesc: Auf der APPUiO Public Platform profitierst du von SELinux, Federation Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt.
+  offerThreeAdvantagesThreeTitle: Support
+  offerThreeAdvantagesThreeDesc: Du erhältst persönlichen Support sowie regelmässige Wartung und Updates der Server. Backup und Monitoring sind inklusive. Zudem steht dir unsere Community im Chat zur Verfügung.
+  offerThreeAdvantagesFourTitle: Self-Service
+  offerThreeAdvantagesFourDesc: Über unser Self-Service Portal kannst du deine Projekte auf Knopfdruck jederzeit anlegen, vergrössern, löschen und verwalten. Du hast die volle Kontrolle über deine Plattform.
+  offerThreeAdvantagesFiveTitle: Pay per Use
+  offerThreeAdvantagesFiveDesc: Die Kosten für die APPUiO Public Platform werden stündlich berechnet. Dabei bezahlst du nur, was du auch effektiv genutzt hast. Es gibt keine Setup-Kosten.
+  offerThreeAdvantagesSixTitle: Hybrid Cloud
+  offerThreeAdvantagesSixDesc: Die APPUiO Public Platform verfügt über zwei Availability Zonen - eine in der Schweiz und eine auf AWS in Deutschland inkl. Nutzung ihrer Services.
+
+  # Offer Three: FAQ
+  offerThreeFaqTitle: Häufig gestellte Fragen
+#Categorie: Verrechnung
+  offerThreeFaqVerOneTitle: Wie kann ich von den früheren “T-Shirt-Grössen” für die Public Platform auf das flexible Pricing migrieren?
+  offerThreeFaqVerOneText: Dies kannst du einfach im Self Service Portal umstellen.
+  offerThreeFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
+  offerThreeFaqVerTwoText: Zu Beginn jedes Monats wird der letzte Monat abgerechnet.
+  offerThreeFaqVerTreeTitle: Wie funktioniert die Abrechnung?
+  offerThreeFaqVerTreeText: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
+  offerThreeFaqVerFourTitle: Welche Einheit wird abgerechnet?
+  offerThreeFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
+  offerThreeFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
+  offerThreeFaqVerFiveText: Die laufenden Kosten können im Self Service Portal angezeigt werden.
+  offerThreeFaqVerSixTitle: Muss ich zusätzlich Subscription von Red Hat bezahlen?
+  offerThreeFaqVerSixText: Nein, die Subscriptions sind im Preis enthalten.
+  #Categorie: Allgemein
+  offerThreeFaqAllOneTitle: Wo ist APPUiO Public gehostet?
+  offerThreeFaqAllOneText: APPUiO Public Platform kann je nach Wunsch bei cloudscale.ch und bei AWS Frankfurt gehostet werden.
+  offerThreeFaqAllTwoTitle: Wie erhalte ich einen APPUiO Account?
+  offerThreeFaqAllTwoText: Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
+  offerThreeFaqAllTreeTitle: Was wird überwacht?
+  offerThreeFaqAllTreeText: Der gesamte Cluster und die dazugehörigen Komponenten werden überwacht. Für die Kundenapplikation kann ein zusätzliches Monitoring abonniert werden.
+  offerThreeFaqAllFourTitle: Was wird gesichert?
+  offerThreeFaqAllFourText: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
+  #Categorie: Add-Ons
+  offerThreeFaqAddOneTitle: Was sind die Supportzeiten des SLA?
+  offerThreeFaqAddOneText: Supportfälle können per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt, bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
+  offerThreeFaqAddTwoTitle: SLA, Was ist die Reaktionszeit?
+  offerThreeFaqAddTwoText: |-
+    Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
+    Innerhalb des durch die Reaktionszeit definierten Zeitraums muss spätestens mit der Analyse des gemeldeten Supportfalls begonnen werden.
+    Beispiel
+    Der Kunde meldet um 16:00 ein Supportfall. Mit der Bearbeitung des Supportfalls in der Variante A wird spätestens am nächsten Tag um 17:00 begonnen
+  offerThreeFaqAddTreeTitle: Was ist die "garantierte" Verfügbarkeit?
+  offerThreeFaqAddTreeText: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
+
   offerThreeContactTitle: Kontakt
   offerThreeContactDesc: Das On Premises APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
   offerThreeLoadingMessage: Nachricht wird gesendet...
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
+
+
+
 
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
@@ -481,7 +608,7 @@ de:
     8005 Zürich<br />
   dataPrivacyTitle: Datenschutz
   dataPrivacyText: |-
-    <p>Sie können grundsätzlich unsere Website besuchen, ohne dass Sie Angaben zu Ihrer Person machen müssen. Auf dieser Website werden mit Matomo, einem Open-Source Web-Analyse-Tool <a href="https://matomo.org/">(https://matomo.org/)</a>, Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen die Wiedererkennung des Internet-Browsers. Die mit Matomo erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und auch nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.</p> 
+    <p>Sie können grundsätzlich unsere Website besuchen, ohne dass Sie Angaben zu Ihrer Person machen müssen. Auf dieser Website werden mit Matomo, einem Open-Source Web-Analyse-Tool <a href="https://matomo.org/">(https://matomo.org/)</a>, Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen die Wiedererkennung des Internet-Browsers. Die mit Matomo erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und auch nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.</p>
     <iframe
         style="border: 0; height: 200px; width: 1000px;"
         src="https://matomo.puzzle.ch/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=002f47&fontColor=ffffff&fontSize=17px&fontFamily=lato"

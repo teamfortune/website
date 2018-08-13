@@ -33,8 +33,8 @@
   background-color: white;
 }
 .offer-one-offers {
-  background-color: $color-lightblue;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .offer-two-offers {
   background-color: $color-blue;
@@ -72,6 +72,11 @@
   .offers-package-item-description {
     display: none;
   }
+}
+
+.offer-three-services  {
+  background-color: $color-blue;
+  color: white;
 }
 
 .offer-addons {
@@ -272,7 +277,9 @@
   }
 }
 
-section#offer-two-advantages {
+section#offer-one-advantages,
+section#offer-two-advantages,
+section#offer-three-advantages {
   background-image: none;
   padding: 3.75rem 0;
 }
