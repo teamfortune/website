@@ -22,7 +22,13 @@
     </li>
     <li class="<%= nav_active('techlabs.html') %>"><a href="techlabs.html"><%= t(:navTechlabs) %></a></li>
     <li class="<%= nav_active('blog.html') %>"><a href="blog.html"><%= t(:navGlobalBlog) %></a></li>
-    <li><a href="./#contact"><%= t(:navContact) %></a></li>
+    <li>
+      <a href="#"><%= t(:navGlobalAbout) %></a>
+      <ul>
+        <li class="<%= nav_active('team.html') %>"><a href="team.html"><%= t(:navGlobalTeam) %></a></li>
+        <li><a href="./#contact"><%= t(:navContact) %></a></li>
+      </ul>
+    </li>
   </ul>
   <ul class="nav-lang">
     <% if (I18n.locale == :de) %>

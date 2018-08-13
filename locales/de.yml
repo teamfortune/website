@@ -463,6 +463,15 @@ de:
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
 
+
+# Team Page
+  teamPageTitle: Team
+  teamTitle: Unsere fantastische Crew
+  teamSubtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  teamMemberOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  teamMemberTwoDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  teamMemberThreeDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+
 # Impressum und datenschutz
   impressumTitle: Impressum
   impressumAddress: |-
