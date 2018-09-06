@@ -46,6 +46,20 @@
     }
   }
 }
+
+.button-element {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: stretch;
+  border-radius: 2px;
+  padding: rem-calc(20);
+  margin: rem-calc(20) auto 0;
+  max-width: rem-calc(320);
+  overflow: hidden;
+  text-align: center;
+}
+
 .callout-ribbon {
   padding: 0.5rem;
   margin-left: rem-calc(-20);

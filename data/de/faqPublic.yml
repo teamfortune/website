@@ -1,0 +1,33 @@
+# Offer Three: FAQ
+#Categorie: Verrechnung
+- question: Wie kann ich von den früheren “T-Shirt-Grössen” für die Public Platform auf das flexible Pricing migrieren?
+  answer: Dies kannst du einfach im Self Service Portal umstellen.
+- question: In welcher Periodizität erfolgt die Abrechnung?
+  answer: Zu Beginn jedes Monats wird der letzte Monat abgerechnet.
+- question: Wie funktioniert die Abrechnung?
+  answer: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
+- question: Welche Einheit wird abgerechnet?
+  answer: Die Abrechnung erfolgt in Megabytes.
+- question: Wo sind die laufenden Kosten ersichtlich?
+  answer: Die laufenden Kosten können im Self Service Portal angezeigt werden.
+- question: Muss ich zusätzlich Subscription von Red Hat bezahlen?
+  answer: Nein, die Subscriptions sind im Preis enthalten.
+#Categorie: Allgemein
+- question: Wo ist APPUiO Public gehostet?
+  answer: APPUiO Public Platform kann je nach Wunsch bei cloudscale.ch und bei AWS Frankfurt gehostet werden.
+- question: Wie erhalte ich einen APPUiO Account?
+  answer: Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
+- question: Was wird überwacht?
+  answer: Der gesamte Cluster und die dazugehörigen Komponenten werden überwacht. Für die Kundenapplikation kann ein zusätzliches Monitoring abonniert werden.
+- question: Was wird gesichert?
+  answer: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
+- question: Was sind die Supportzeiten des SLA?
+  answer: Supportfälle können per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt, bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
+- question: SLA, Was ist die Reaktionszeit?
+  answer: |-
+    Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
+    Innerhalb des durch die Reaktionszeit definierten Zeitraums muss spätestens mit der Analyse des gemeldeten Supportfalls begonnen werden.
+    Beispiel
+    Der Kunde meldet um 16:00 ein Supportfall. Mit der Bearbeitung des Supportfalls in der Variante A wird spätestens am nächsten Tag um 17:00 begonnen
+- question: Was ist die "garantierte" Verfügbarkeit?
+  answer: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.

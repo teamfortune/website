@@ -328,7 +328,9 @@ en:
 
   offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen
 
-
+  # FAQ scroll buttons
+  faqToTopButton: To top
+  faqGeneral: General FAQ's
 
   # Offer Two: FAQ
   offerTwoFaqTitle: Frequently Asked Questions

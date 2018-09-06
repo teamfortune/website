@@ -1,0 +1,34 @@
+# Offer Two: FAQ
+#Categorie: Accounting
+- question: How do I migrate from earlier “T-Shirt-Sizes” for the Public Platform to flexible Pricing?
+  answer: This can be changed directly inside the Self-Service Portal.
+- question: How often do you charge / When will I get bills?
+  answer: We bill the past month at the beginning of each month.
+- question: How does billing work in detail?
+  answer: The maximum amount of memory in MB within the last hour is multiplied by the price per hour. All hours in a month are then added up to receive the final price per month.
+- question: In what units do you charge?
+  answer: Bills are calculated in Megabytes.
+- question: Where can I review running costs?
+  answer: Current operating costs are visible in the Service Portal.
+- question: Do I need to pay for the Red Hat Subscription as well?
+  answer: No, the Red Hat subscriptions are included in our price.
+#Categorie: General
+- question: Where is APPUiO Public hosted?
+  answer: There are two APPUiO Public Platform locations. Data is stored either with cloudscale.ch or at AWS Frankfurt according to customer’s preferences.
+- question: How do I get an APPUiO Account?
+  answer: To obtain an APPUiO-Account fill out the contact form. Once verified you will receive a login from us.
+- question: What is monitored?
+  answer: The cluster as a whole as well as each indiviual component is constantly monitored. Monitoring of your own application can be ordered additionaly.
+- question: What is backupped?
+  answer: The whole cluster, all objects and data on the Persistent Storage is backupped. There are no application-consistent backups and restores by our support will incur cost expenditures.
+#Categorie: SLA
+- question: What are the support hours of operation?
+  answer: During these time frames, support is provided by phone and/or e-mail. Customers receive the direct support phone number of VSHN. The team member responsible for support cases will acknowledge reception of the support case to a e-mail address to be defined by the customer.
+- question: |-
+   SLA: What's the response time?
+  answer: |-
+    The response time starts the moment we are informed about the support case and relates to the period until support will be provided. The response time defines the time frame between reception of the support case and start of analysis work on the problem.
+    Example&#58;
+    The customer informs us about problem at 16:00. With SLA model "A", work on that support case will start at the latest at 17:00 the next day.
+- question: What is "guaranteed availability"?
+  answer: Not during announced maintenance work, excluding customer errors, reachable according to monitoring, similarly to VSHN's terms and conditions.

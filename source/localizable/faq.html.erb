@@ -8,16 +8,55 @@ title: APPUiO - Swiss Container Platform - FAQ
   </div>
 </header>
 
-<main class="main-container" role="main">
-  <section class="home-hero">
-    <div class="grid-container">
-      <h2>FAQ's</h2>
-          <% data["#{I18n.locale}"].faq.each do |f| %>
-            <h3><%= f["question"] %></h3>
-            <p class="faq-iteration"><%= f["answer"] %></p>
-          <% end %>
+<div id="orientation" class="offers-package-button-wrapper text-center">
+  <div class="grid-container">
+    <ul class="advantages-list callout-list">
+      <li class="button-element">
+        <div class="offers-package-button" ><a href="#general-faq" class="button is-round" data-check="interest-custom"><%= t(:faqGeneral) %></a></div>
+      </li>
+      <li class="button-element">
+        <div class="offers-package-button" ><a href="#public-platform-faq" class="button is-round" data-check="interest-custom">Public Platform FAQ's</a></div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<main class="main-container" role="main" style="padding-bottom: 3.75rem">
+  <section class="offer-faq">
+    <div id="general-faq" class="grid-container">
+      <h2 class="offers-faq-title">FAQ's</h2>
+      <div class="offers-faq-container">
+        <% data["#{I18n.locale}"].faq.each do |f| %>
+          <article class="offers-faq-item">
+            <h4 class="offers-faq-list-title expandable-title"><a href="#" slide-toggle=".offers-faq-list-answer"><%= f["question"] %></a></h4>
+            <p class="offers-faq-list-answer"><%= f["answer"] %></p>
+          </article>
+        <% end %>
+      </div>
     </div>
   </section>
+
+  <div class="grid-container text-center">
+    <div class="offers-package-button" ><a href="#orientation" class="button is-round" data-check="interest-custom"><%= t(:faqToTopButton) %></a></div>
+  </div>
+
+  <section class="offer-faq">
+    <div id="public-platform-faq" class="grid-container">
+      <h2 class="offers-faq-title">Public Platform</h2>
+      <div class="offers-faq-container">
+        <% data["#{I18n.locale}"].faqPublic.each do |f| %>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title expandable-title"><a href="#" slide-toggle=".offers-faq-list-answer"><%= f["question"] %></a></h4>
+          <p class="offers-faq-list-answer"><%= f["answer"] %></p>
+        </article>
+        <% end %>
+      </div>
+    </div>
+  </section>
+
+  <div class="grid-container text-center">
+    <div class="offers-package-button"><a href="#orientation" class="button is-round" data-check="interest-custom"><%= t(:faqToTopButton) %></a></div>
+  </div>
 </main>
 
 <%= partial "partials/footer" %>

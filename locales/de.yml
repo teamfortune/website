@@ -245,6 +245,9 @@ de:
   offerOneAddon5Description: pro Service/Tag
   offerOneAddon5Price: 0.35 CHF
 
+# FAQ page: scroll buttons
+  faqToTopButton: Nach oben
+  faqGeneral: Allgemeine FAQ's
 
 # Offer Two: FAQ
   offerOneFaqTitle: Häufig gestellte Fragen
