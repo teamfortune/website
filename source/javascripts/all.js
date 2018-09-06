@@ -29,7 +29,7 @@
     target = $(this).parent().parent().find(target);
     if (target.length) {
       target.slideToggle('fast');
-      $(this).parent().parent().toggleClass('is-expanded');
+      $(this).parent().parent().toggleClass('is-expanded').toggleClass('is-closed');
     }
   });
 

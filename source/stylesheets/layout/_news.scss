@@ -34,6 +34,11 @@
       float: left;
     }
   }
+  .is-closed{
+    .close-button {
+      display: none;
+    }
+  }
   .is-expanded {
     .expand-button {
       display: none;
