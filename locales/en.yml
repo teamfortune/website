@@ -470,6 +470,10 @@ en:
   mailGotAMessage: We just received a message from APPUiO.ch!
   mailSubject: I'm interested in?
 
+# Blog
+  readMoreButton: read more
+  closeButton: close
+
 # Techlab Page
   techlabPageTitle: Techlab
   techlabTitle: |-
