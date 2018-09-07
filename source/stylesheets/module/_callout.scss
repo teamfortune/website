@@ -60,6 +60,42 @@
   text-align: center;
 }
 
+.content-centered {
+  text-align: center;
+}
+
+.blog-footer {
+  display: inline-block;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.break-small-flex {
+  @include susy-breakpoint($break-medium-small) {
+    display: flex;
+    margin: auto;
+  }
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.br-small-margin {
+  @include susy-breakpoint($break-medium-small) {
+    margin: 0 !important;
+  }
+}
+
+.author-image {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
 .callout-ribbon {
   padding: 0.5rem;
   margin-left: rem-calc(-20);

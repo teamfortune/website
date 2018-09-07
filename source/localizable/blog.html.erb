@@ -23,8 +23,26 @@ title: APPUiO - Swiss Container Platform - Blog
                       <a href="#" slide-toggle=".news-details"><h3><%= f["title"] %></h3></a>
                       <p class="news-subtitle"><%= f["subtitle"] %></p>
                       <div class="news-details"><%= f["details"] %></div>
-                      <a class="expand-button button is-round" href="#" slide-toggle=".news-details"><%= t(:readMoreButton) %></a>
-                      <a class="close-button button is-round" href="#" slide-toggle=".news-details"><%= t(:closeButton) %></a>
+                      <div class="content-centered">
+                        <div class="blog-footer break-small-flex">
+                          <div>
+                            <a class="expand-button button is-round br-small-margin" href="#" slide-toggle=".news-details"><%= t(:readMoreButton) %></a>
+                            <a class="close-button button is-round br-small-margin" href="#" slide-toggle=".news-details"><%= t(:closeButton) %></a>
+                          </div>
+                          <div class="author-container">
+                            <a href="team.html">
+                              <p class="no-margin">
+                                <%= f["authorName"] %>
+                                <br>
+                                <%= f["authorRole"] %>
+                              </p>
+                            </a>
+                            <div class="author-image">
+                              <img src="<%= f["imgPath"] %>" height="65" width="65" alt=""/>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
               </div>
           <% end %>

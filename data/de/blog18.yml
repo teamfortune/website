@@ -9,6 +9,9 @@
             <p>In der Beta Version wird noch kein aktives Monitoring der Backups gemacht und es fallen keine zusätzlichen Kosten zum Backup Storage an. Sobald der Backup Service die Beta Version beendet hat informieren wir über das Preismodell.</p>
             <p>Aktuell werden automatisch alle "ReadWriteMany" PVCs im Backup gespeichert. Geplant ist, dass auch andere Volumes wie Datenbanken konsistent ins Backup aufgenommen werden können.</p>
             <p>Die Dokumentation ist unter <a href="http://docs.appuio.ch/en/latest/baas.html">docs.appuio.ch</a> zu finden. Über ein Feedback unter <a href="support@appuio.ch">support@appuio.ch</a> freuen wir uns.</p>
+  authorName: Matthias Summer
+  authorRole: System Engineer
+  imgPath: /images/MatthiasSummer.png
 
 - day: 16
   month: Mai

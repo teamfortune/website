@@ -26,10 +26,10 @@
   $("[slide-toggle]").click(function(event) {
     event.preventDefault();
     var target = $(event.currentTarget).attr('slide-toggle');
-    target = $(this).parent().parent().find(target);
+    target = $(this).parent().parent().parent().parent().parent().find(target);
     if (target.length) {
       target.slideToggle('fast');
-      $(this).parent().parent().toggleClass('is-expanded').toggleClass('is-closed');
+      $(this).parent().parent().parent().parent().parent().toggleClass('is-expanded').toggleClass('is-closed');
     }
   });
 
