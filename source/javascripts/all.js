@@ -26,11 +26,19 @@
   $("[slide-toggle]").click(function(event) {
     event.preventDefault();
     var target = $(event.currentTarget).attr('slide-toggle');
-    target = $(this).parent().parent().parent().parent().parent().find(target);
+    target = $(this).parent().parent().find(target);
     if (target.length) {
       target.slideToggle('fast');
-      $(this).parent().parent().parent().parent().parent().toggleClass('is-expanded').toggleClass('is-closed');
+      $(this).parent().parent().toggleClass('is-expanded').toggleClass('is-closed');
     }
+  });
+
+  $(".toggle-expand").click(function (event) {
+      event.preventDefault();
+      var toggleTargetElement = $('#' + $(event.target).data('toggleTargetId'));
+      var animationTargetElement = $('#' + $(event.target).data('animationTargetId'));
+      toggleTargetElement.slideToggle('fast');
+      animationTargetElement.toggleClass('is-closed').toggleClass('is-expanded');
   });
 
 // Enable Submit button when terms and an offer is checked

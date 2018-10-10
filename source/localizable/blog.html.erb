@@ -16,18 +16,20 @@ title: APPUiO - Swiss Container Platform - Blog
       <div class="dot"></div>
       <div class="year-container">
           <% data["#{I18n.locale}"].blog18.each do |f| %>
-            <div class="news-entry is-closed">
+          <% toggle_target_id = SecureRandom.uuid %>
+          <% animation_target_id = SecureRandom.uuid %>
+            <div id="<%= animation_target_id %>" class="news-entry is-closed">
               <a name="<%= f["title"] %>" class="anchor"></a><a name="2018-<%= f["month"] %>-<%= f["day"] %>" class="anchor"></a>
                   <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
                   <div class="news-text">
-                      <a href="#" slide-toggle=".news-details"><h3><%= f["title"] %></h3></a>
+                      <a><h3 class="toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["title"] %></h3></a>
                       <p class="news-subtitle"><%= f["subtitle"] %></p>
-                      <div class="news-details"><%= f["details"] %></div>
+                      <div id="<%= toggle_target_id %>" class="news-details"><%= f["details"] %></div>
                       <div class="content-centered">
                         <div class="blog-footer break-small-flex">
                           <div>
-                            <a class="expand-button button is-round br-small-margin" href="#" slide-toggle=".news-details"><%= t(:readMoreButton) %></a>
-                            <a class="close-button button is-round br-small-margin" href="#" slide-toggle=".news-details"><%= t(:closeButton) %></a>
+                            <a class="expand-button button is-round br-small-margin toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= t(:readMoreButton) %></a>
+                            <a class="close-button button is-round br-small-margin toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= t(:closeButton) %></a>
                           </div>
                           <div class="author-container">
                             <a href="team.html">
@@ -51,14 +53,35 @@ title: APPUiO - Swiss Container Platform - Blog
         <div class="dot"></div>
         <div class="year-container">
             <% data["#{I18n.locale}"].blog17.each do |f| %>
-                <div class="news-entry is-closed">
+            <% toggle_target_id = SecureRandom.uuid %>
+            <% animation_target_id = SecureRandom.uuid %>
+                <div id="<%= animation_target_id %>" class="news-entry is-closed">
                   <a name="<%= f["title"] %>" class="anchor"></a><a name="2017-<%= f["month"] %>-<%= f["day"] %>" class="anchor"></a>
                     <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
                     <div class="news-text">
-                        <a href="#" slide-toggle=".news-details"><h3><%= f["title"] %></h3></a>
+                        <a><h3 class="toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["title"] %></h3></a>
                         <p class="news-subtitle"><%= f["subtitle"] %></p>
-                        <div class="news-details"><%= f["details"] %></div><a class="expand-button button is-round" href="#" slide-toggle=".news-details"><%= t(:readMoreButton) %></a>
-                        <a class="close-button button is-round" href="#" slide-toggle=".news-details"><%= t(:closeButton) %></a>
+                        <div id="<%= toggle_target_id %>" class="news-details"><%= f["details"] %></div>
+                        <div class="content-centered">
+                          <div class="blog-footer break-small-flex">
+                            <div>
+                              <a class="expand-button button is-round br-small-margin toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= t(:readMoreButton) %></a>
+                              <a class="close-button button is-round br-small-margin toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= t(:closeButton) %></a>
+                            </div>
+                            <div class="author-container">
+                              <a href="team.html">
+                                <p class="no-margin">
+                                  <%= f["authorName"] %>
+                                  <br>
+                                  <%= f["authorRole"] %>
+                                </p>
+                              </a>
+                              <div class="author-image">
+                                <img src="<%= f["imgPath"] %>" height="65" width="65" alt=""/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
             <% end %>
@@ -67,14 +90,35 @@ title: APPUiO - Swiss Container Platform - Blog
         <div class="dot"></div>
         <div class="year-container">
             <% data["#{I18n.locale}"].blog16.each do |f| %>
-          <div class="news-entry is-closed">
+            <% toggle_target_id = SecureRandom.uuid %>
+            <% animation_target_id = SecureRandom.uuid %>
+          <div id="<%= animation_target_id %>" class="news-entry is-closed">
             <a name="<%= f["title"] %>" class="anchor"></a><a name="2016-<%= f["month"] %>-<%= f["day"] %>" class="anchor"></a>
               <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
               <div class="news-text">
-                <a href="#" slide-toggle=".news-details"><h3><%= f["title"] %></h3></a>
+                <a><h3 class="toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["title"] %></h3></a>
                 <p class="news-subtitle"><%= f["subtitle"] %></p>
-                <div class="news-details"><%= f["details"] %></div><a class="expand-button button is-round" href="#" slide-toggle=".news-details"><%= t(:readMoreButton) %></a>
-                <a class="close-button button is-round" href="#" slide-toggle=".news-details"><%= t(:closeButton) %></a>
+                <div id="<%= toggle_target_id %>" class="news-details"><%= f["details"] %></div>
+                <div class="content-centered">
+                  <div class="blog-footer break-small-flex">
+                    <div>
+                      <a class="expand-button button is-round br-small-margin toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= t(:readMoreButton) %></a>
+                      <a class="close-button button is-round br-small-margin toggle-expand" href="#" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= t(:closeButton) %></a>
+                    </div>
+                    <div class="author-container">
+                      <a href="team.html">
+                        <p class="no-margin">
+                          <%= f["authorName"] %>
+                          <br>
+                          <%= f["authorRole"] %>
+                        </p>
+                      </a>
+                      <div class="author-image">
+                        <img src="<%= f["imgPath"] %>" height="65" width="65" alt=""/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <% end %>

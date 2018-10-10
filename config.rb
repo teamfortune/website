@@ -11,6 +11,7 @@ page '/*.txt', layout: false
 
 # General configuration
 require 'builder'
+require 'securerandom'
 
 activate :external_pipeline,
   name: :price_calculator,

@@ -27,9 +27,11 @@ title: APPUiO - Swiss Container Platform - FAQ
       <h2 class="offers-faq-title">FAQ's</h2>
       <div class="offers-faq-container">
         <% data["#{I18n.locale}"].faq.each do |f| %>
-          <article class="offers-faq-item">
-            <h4 class="offers-faq-list-title expandable-title"><a href="#" slide-toggle=".offers-faq-list-answer"><%= f["question"] %></a></h4>
-            <p class="offers-faq-list-answer"><%= f["answer"] %></p>
+          <% animation_target_id = SecureRandom.uuid %>
+          <% toggle_target_id = SecureRandom.uuid %>
+          <article id="<%= animation_target_id %>" class="offers-faq-item">
+            <h4 class="offers-faq-list-title expandable-title"><a href="#" class="toggle-expand" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["question"] %></a></h4>
+            <p id="<%= toggle_target_id %>" class="offers-faq-list-answer"><%= f["answer"] %></p>
           </article>
         <% end %>
       </div>
@@ -45,9 +47,11 @@ title: APPUiO - Swiss Container Platform - FAQ
       <h2 class="offers-faq-title">Public Platform</h2>
       <div class="offers-faq-container">
         <% data["#{I18n.locale}"].faqPublic.each do |f| %>
-        <article class="offers-faq-item">
-          <h4 class="offers-faq-list-title expandable-title"><a href="#" slide-toggle=".offers-faq-list-answer"><%= f["question"] %></a></h4>
-          <p class="offers-faq-list-answer"><%= f["answer"] %></p>
+          <% animation_target_id = SecureRandom.uuid %>
+          <% toggle_target_id = SecureRandom.uuid %>
+        <article id="<%= animation_target_id %>" class="offers-faq-item">
+          <h4 class="offers-faq-list-title expandable-title"><a href="#" class="toggle-expand" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["question"] %></a></h4>
+          <p id="<%= toggle_target_id %>" class="offers-faq-list-answer"><%= f["answer"] %></p>
         </article>
         <% end %>
       </div>
