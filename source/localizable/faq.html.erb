@@ -12,16 +12,19 @@ title: APPUiO - Swiss Container Platform - FAQ
   <div class="grid-container">
     <ul class="advantages-list callout-list">
       <li class="button-element">
-        <div class="offers-package-button" ><a href="#general-faq" class="button is-round" data-check="interest-custom"><%= t(:faqGeneral) %></a></div>
+        <div class="offers-package-button">
+          <a href="#general-faq" class="button is-round" data-check="interest-custom"><%= t(:faqGeneral) %></a></div>
       </li>
       <li class="button-element">
-        <div class="offers-package-button" ><a href="#public-platform-faq" class="button is-round" data-check="interest-custom">Public Platform FAQ's</a></div>
+        <div class="offers-package-button">
+          <a href="#public-platform-faq" class="button is-round" data-check="interest-custom">Public Platform FAQ's</a>
+        </div>
       </li>
     </ul>
   </div>
 </div>
 
-<main class="main-container" role="main" style="padding-bottom: 3.75rem">
+<main class="main-container" role="main">
   <section class="offer-faq">
     <div id="general-faq" class="grid-container">
       <h2 class="offers-faq-title">FAQ's</h2>
@@ -30,37 +33,41 @@ title: APPUiO - Swiss Container Platform - FAQ
           <% animation_target_id = SecureRandom.uuid %>
           <% toggle_target_id = SecureRandom.uuid %>
           <article id="<%= animation_target_id %>" class="offers-faq-item">
-            <h4 class="offers-faq-list-title expandable-title"><a href="#" class="toggle-expand" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["question"] %></a></h4>
+            <h4 class="offers-faq-list-title expandable-title">
+              <a href="#" class="toggle-expand" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["question"] %></a>
+            </h4>
             <p id="<%= toggle_target_id %>" class="offers-faq-list-answer"><%= f["answer"] %></p>
           </article>
         <% end %>
       </div>
     </div>
+    <div class="grid-container text-center faq-button-container">
+      <div class="offers-package-button">
+        <a href="#orientation" class="button is-round" data-check="interest-custom"><%= t(:faqToTopButton) %></a></div>
+    </div>
   </section>
 
-  <div class="grid-container text-center">
-    <div class="offers-package-button" ><a href="#orientation" class="button is-round" data-check="interest-custom"><%= t(:faqToTopButton) %></a></div>
-  </div>
-
-  <section class="offer-faq">
+  <section class="offer-faq public-faq bright-text">
     <div id="public-platform-faq" class="grid-container">
       <h2 class="offers-faq-title">Public Platform</h2>
       <div class="offers-faq-container">
         <% data["#{I18n.locale}"].faqPublic.each do |f| %>
           <% animation_target_id = SecureRandom.uuid %>
           <% toggle_target_id = SecureRandom.uuid %>
-        <article id="<%= animation_target_id %>" class="offers-faq-item">
-          <h4 class="offers-faq-list-title expandable-title"><a href="#" class="toggle-expand" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["question"] %></a></h4>
-          <p id="<%= toggle_target_id %>" class="offers-faq-list-answer"><%= f["answer"] %></p>
-        </article>
+          <article id="<%= animation_target_id %>" class="offers-faq-item">
+            <h4 class="offers-faq-list-title expandable-title">
+              <a href="#" class="toggle-expand" data-animation-target-id="<%= animation_target_id %>" data-toggle-target-id="<%= toggle_target_id %>"><%= f["question"] %></a>
+            </h4>
+            <p id="<%= toggle_target_id %>" class="offers-faq-list-answer"><%= f["answer"] %></p>
+          </article>
         <% end %>
       </div>
     </div>
+    <div class="grid-container text-center faq-button-container">
+      <div class="offers-package-button">
+        <a href="#orientation" class="button is-round" data-check="interest-custom"><%= t(:faqToTopButton) %></a></div>
+    </div>
   </section>
-
-  <div class="grid-container text-center">
-    <div class="offers-package-button"><a href="#orientation" class="button is-round" data-check="interest-custom"><%= t(:faqToTopButton) %></a></div>
-  </div>
 </main>
 
 <%= partial "partials/footer" %>

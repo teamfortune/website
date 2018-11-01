@@ -2,3 +2,26 @@
   border-bottom: 1px solid $color-darkgrey;
   padding-bottom: rem-calc(48);
 }
+
+.public-faq {
+  background-color: #00AEC1;
+  color: white;
+  .toggle-expand {
+    color: white;
+  }
+}
+
+.faq-button-container {
+  padding-top: 4em;
+}
+
+.bright-text {
+  .expandable-title a {
+    color: white;
+
+    &::after {
+      background-image: url("/images/caret_down_white.svg");
+    }
+  }
+}
+
