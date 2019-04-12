@@ -482,3 +482,7 @@ de:
         style="border: 0; height: 200px; width: 1000px;"
         src="https://matomo.puzzle.ch/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=002f47&fontColor=ffffff&fontSize=17px&fontFamily=lato"
         ></iframe>
+
+  # The story behind APPUiO
+  storyBehindAPPUiOTitle: The story behind APPUiO
+  storyBehindAPPUiOIntroText: "English story behind appuio text placeholder."
