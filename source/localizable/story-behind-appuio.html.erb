@@ -9,15 +9,18 @@ title: Story behind APPUiO
 </header>
 
 <main class="main-container" role="main">
-  <section id="title-section" class="home-hero">
-    <h2 class="offers-title"><%= t(:storyBehindAPPUiOTitle) %></h2>
+  <section id="title-section" class="story">
+    <h2 class="story-title"><%= t(:storyBehindAPPUiOTitle) %></h2>
+     <div class="grid-container">
+          <p class="story-intro"><%= t(:storyBehindAPPUiOIntroText) %></p>
+        </div>
   </section>
 
-  <section class="offer-two-contents">
-    <div class="grid-container">
-      <p class="offers-intro"><%= t(:storyBehindAPPUiOIntroText) %></p>
-    </div>
-  </section>
+  <section class="story-text">
+      <div class="grid-container">
+        <p class="story-intro"><%= t(:storyBehindAPPUiOPartnerText) %></p>
+      </div>
+    </section>
 </main>
 
 <%= partial "partials/footer" %>
