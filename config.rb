@@ -26,6 +26,8 @@ configure :development do
   end
 end
 
+
+
 # Build-specific configuration
 configure :build do
 
@@ -67,6 +69,9 @@ helpers EvilIcons::Helpers
 ###
 # Helpers
 ###
+
+require 'yaml'
+
 helpers do
   def nav_active(path)
     if(current_page.path.end_with? path)
@@ -89,6 +94,19 @@ helpers do
       "/" + language + "/" + current_page.path.sub(I18n.locale.to_s + "/", "")
     end
   end
+  #Twitter
+  def get_twitterfeed()
+    cnf = YAML.load(File.read("twitterconfig.yml"))
+
+    client = Twitter::REST::Client.new do |config|
+      config.consumer_key        = cnf["consumerKey"]
+      config.consumer_secret     = cnf["consumerSecret"]
+      config.access_token        = cnf["accessToken"]
+      config.access_token_secret = cnf["accessTokenSecret"]
+    end
+
+    client.search("from:appuio", result_type: "recent").take(1).first  #nils rauch fragen
+  end
 end
 # Would theoretically create class for pages - but doesnt work yet - source: https://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/
 # def page_classes
@@ -102,3 +120,5 @@ end
 #
 #   classes.join('')
 # end
+
+

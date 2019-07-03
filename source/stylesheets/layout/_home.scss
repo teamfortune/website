@@ -217,6 +217,36 @@
   width: 165px;
 }
 
+//Twitter
+// ----------------------------------------------
+.home-twitter{
+  background: #FFD301;
+  color: black;
+  text-align: center;
+  padding: rem-calc(20 0);
+}
+
+.image-txt-container {
+
+  width: 60%;
+  margin: 0 auto;
+  height: inherit;
+  img {
+    height: rem-calc(80);
+  }
+  a {
+    color: #15B0BF;
+  }
+  @include susy-breakpoint($break-small) {
+    display: block;
+  }
+  @include susy-breakpoint($break-medium) {
+    display:flex;
+  }
+}
+
+
+
 // Contact
 // ----------------------------------------------
 .home-contact {
