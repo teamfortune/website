@@ -214,7 +214,7 @@ de:
 
   # Offer1: Managed Private PaaS
   offerOneTitle: Managed
-  offerOneIntro: Dein eigener APPUiO Managed Private Cluster in deinem RZ On-Premises oder in der Cloud deiner Wahl. APPUiO übernimmt das Setup und den Betrieb der Container-Plattform und du kannst dich auf dein Kerngeschäft konzentrieren.
+  offerOneIntro: Mit APPUiO Managed installieren und betreiben wir deine eigene Containerplattform in der Cloud oder On-Premises.
 
   offerOneList1: Basis für DevOps
   offerOneList2: 09&#58;00 - 18&#58;00 Telefon- und E-Mail-Support
@@ -315,7 +315,7 @@ de:
 
   # Offer2: Public Platform
   offerTwoTitle: Public
-  offerTwoIntro: Nutze APPUiO Public für deine produktiven Applikationen oder für flexible, standardisierte Entwicklungsumgebungen. Alle Komponenten sind standardmässig hochverfügbar.
+  offerTwoIntro: Mit APPUiO Public kannst du direkt in die Cloud und deine Anwendung noch heute deployen.
 
 
   # Offer Two: Vorteile
@@ -532,7 +532,7 @@ de:
 
   # Offer3: Self Managed APPUiO
   offerThreeTitle: Self-Managed
-  offerThreeIntro: Möchtest du selber eine Container-Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit? Wir helfen dir von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container-Plattform am besten genutzt wird.
+  offerThreeIntro: Mit APPUiO Self-Managed richten wir deine eigene Container Plattform ein und transferieren unser Know-how, damit du sie selbstständig betreiben kannst.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)

@@ -211,7 +211,7 @@ en:
 
 # Offer1: Managed Private APPUiO
   offerOneTitle: Managed
-  offerOneIntro: Your own APPUiO Managed Private Cluster in your CC on-premises or in the cloud of your choice. APPUiO takes care of the setup, operation of the container platform and lets you concentrate on your core business.
+  offerOneIntro: With APPUiO Managed, we setup and operate your own container platform in the cloud or on-premises.
 
   offerOneList1: Basis for DevOps
   offerOneList2: 09.00 - 18.00 Phone + e-mail support
@@ -298,8 +298,8 @@ en:
   offerOneSuccessMessage: Message successfully sent!
 
 # Offer2: Public Platform
-  offerTwoTitle: Public Platform
-  offerTwoIntro: Benefit from APPUiO Public for your productive applications or for flexible, standardized development environments. All components are standardized highly available.
+  offerTwoTitle: Public
+  offerTwoIntro: With APPUiO Public you can dive right into the cloud and deploy your application today.
 
 # Offer Two: Advantages
   offerTwoAdvantagesTitle: Advantages
@@ -527,7 +527,7 @@ en:
 
 # Offer3: Self Managed PaaS
   offerThreeTitle: Self-Managed
-  offerThreeIntro: Would you like to build your own container platform but you lack the necessary know-how or time? Reaching from planning and set-up to operations. With pleasure we advise your developers on how to best use the container platform.
+  offerThreeIntro: With APPUiO Self-Managed, we setup your own container platform and transfer our know-how, so that you can run it independently.
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
   offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
   offerThreeServices1: APPUiO runs on Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
