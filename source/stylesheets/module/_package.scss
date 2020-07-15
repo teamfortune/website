@@ -11,6 +11,29 @@
   align-content: space-between;
   width: 100%;
   margin: rem-calc(32 0);
+  padding: 0;
+  .offers-package {
+    padding: 0rem;
+    margin: 1rem;
+    @include susy-breakpoint($break-large) {
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .offers-package-ribbon {
+    padding: rem-calc(16);
+    margin: 0;
+    line-height: auto;
+  }
+  ul.offers-package-list {
+    padding: 0 1rem;
+    margin: 0.25rem 0;
+  }
 }
 
 a.offers-package {
@@ -43,11 +66,6 @@ a.offers-package {
     }
   }
   &.is-fourth {
-    &:not(:last-child) {
-      @include susy-breakpoint($break-medium) {
-        margin-right: 2rem;
-      }
-    }
     @include susy-breakpoint($break-small) {
       width: 100%;
     }
