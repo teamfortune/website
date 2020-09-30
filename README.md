@@ -1,4 +1,4 @@
-# APPUiO Website
+# APPUiO Website - which can improve the data
 
 [![Translated Widget](https://weblate.appuioapp.ch/widgets/appuio-website/-/svg-badge.svg)](#translate)
 
